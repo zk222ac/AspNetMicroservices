@@ -15,9 +15,9 @@ namespace Catalog.API.Data
             var database = client.GetDatabase(configuration.GetValue<string>("DbSettings:DbName"));
             // Stepno 3: Get the collection Name Products
             Products = database.GetCollection<Product>(configuration.GetValue<string>("DbSettings:CollectionName"));
-
-            // Seed some data bydefault when programs runs first time and check some data in the database
+            // Step no 4:  Seeding the data 
+            CatalogContextSeed.SeedData(Products);
         }
-        public IMongoCollection<Product> Products { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public IMongoCollection<Product> Products { get; }
     }
 }
