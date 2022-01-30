@@ -47,7 +47,6 @@ namespace Catalog.API.Repositories
                                 .Find(filterByCategory)
                                 .ToListAsync();
         }
-
         public async Task<IEnumerable<Product>> GetProductByName(string name)
         {
             FilterDefinition<Product> filterByName = Builders<Product>.Filter.Eq(p =>p.Name, name);
