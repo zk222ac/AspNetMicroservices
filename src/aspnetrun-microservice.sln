@@ -19,6 +19,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Concession", "Concession", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Concession.API", "Services\Concession\Concession.API\Concession.API.csproj", "{00D260DC-BF2E-4B92-A0A0-140FE57E6DD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concession.Grpc", "Services\Concession\Concession.Grpc\Concession.Grpc.csproj", "{9CC97DD5-8B60-487E-9BF4-7E0BB152C878}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9E1EA857-D7D5-418F-874A-D83A32E3F503}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +48,10 @@ Global
 		{00D260DC-BF2E-4B92-A0A0-140FE57E6DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00D260DC-BF2E-4B92-A0A0-140FE57E6DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00D260DC-BF2E-4B92-A0A0-140FE57E6DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CC97DD5-8B60-487E-9BF4-7E0BB152C878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC97DD5-8B60-487E-9BF4-7E0BB152C878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC97DD5-8B60-487E-9BF4-7E0BB152C878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC97DD5-8B60-487E-9BF4-7E0BB152C878}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +63,7 @@ Global
 		{680957DA-2F40-4A13-AFEF-0D572E41E847} = {AD8DD879-CA73-40B5-AE4E-A15BBF4BE626}
 		{B8B565D7-9CF2-486B-A9E8-CBD9564247CB} = {499D9A66-E8E2-4DCA-9FCD-4C232002FCB8}
 		{00D260DC-BF2E-4B92-A0A0-140FE57E6DD2} = {B8B565D7-9CF2-486B-A9E8-CBD9564247CB}
+		{9CC97DD5-8B60-487E-9BF4-7E0BB152C878} = {B8B565D7-9CF2-486B-A9E8-CBD9564247CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BDDCA6E3-CD03-4902-A204-35627C23727D}
