@@ -35,10 +35,17 @@ services:
       context: .
       dockerfile: Services/Concession/Concession.API/Dockerfile
 
+  concession.grpc:
+    image: ${DOCKER_REGISTRY-}concessiongrpc
+    build:
+      context: .
+      dockerfile: Services/Concession/Concession.Grpc/Dockerfile
+
 volumes:
   mongo_data:
   postgres_data:
   pgadmin_data:
   #portainer_data:
+
 
 
